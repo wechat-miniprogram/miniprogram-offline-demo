@@ -1,0 +1,171 @@
+{
+  "success": true,
+  "code": 0,
+  "data": {
+    "rows": [
+      {
+        "DocId": "1",
+        "CreateTime": "1639037803",
+        "Title": "微信部分功能被限制？",
+        "Content": "<p>本来受限到13号，但上传个人资料后解封了，可是所有之前被收录过的文章在微信搜一搜都不展示了，而且关于本微信的新文章也再也不展示</p>",
+        "pv": "4",
+        "commentNum": 0
+      },
+      {
+        "DocId": "2",
+        "CreateTime": "1639037674",
+        "Title": "新购买新备案域名，被微信拦截，申述不通过，请问怎么解封？",
+        "Content": "<p>672st.com</p><p>675st.com</p><p>637st.com</p><p>全新新备案，新注册域名！被拦截一直申述不通过！难道别人以前错误，要我们买单，不给申述机会？</p>",
+        "pv": "5",
+        "commentNum": 0
+      },
+      {
+        "DocId": "3",
+        "CreateTime": "1639036764",
+        "Title": "订阅号无法注册怎么办？",
+        "Content": "<p>我这边刚刚想注册一个订阅号，以企业的名义，但是注册到一半显示企业名额已经满了，换个人去注册，又提示邮箱已注册，这个怎么解决？（不想更换邮箱）</p>",
+        "pv": "12",
+        "commentNum": "1"
+      },
+      {
+        "DocId": "4",
+        "CreateTime": "1639036692",
+        "Title": "体验版小程序发送请求的也不能用ip吗？",
+        "Content": "<p style=\" background-color: rgb(250, 250, 250); font-size: 14px; ; ; ; ; ; ; ; ; ; ; \">微信开发者工具里可以调用数据，<span style=\"font-size: 14px;\">体验版小程序发送请求失败，看文档正式版需要域名HTTPS访问，</span>体验版小程序发送请求的也不能用ip吗？</p>",
+        "pv": "10",
+        "commentNum": "1"
+      },
+      {
+        "DocId": "5",
+        "CreateTime": "1639036622",
+        "Title": "imgSecCheck接口返回错误码87015？",
+        "Content": "<p>{\\\"errcode\\\":87015,\\\"errmsg\\\":\\\"query timeout, try a content with less size rid: 61b1b61d-3e0986e0-06b211c5\\\"}</p><p style=\"font-size: 16px;\">图片大小2.37K，之前一直没问题</p><p style=\"font-size: 16px;\">appid：wxc5fc06fe18c478d7</p><p style=\"font-size: 16px;\"><br  /></p><p style=\"font-size: 16px;\">中午12点28分一直到现在</p>",
+        "pv": "27",
+        "commentNum": "2"
+      },
+      {
+        "DocId": "6",
+        "CreateTime": "1639037627",
+        "Title": "视频号未能发起直播是什么原因？",
+        "Content": "<p>视频号第二场直播，创建直播间时显示未能发起直播，请稍后再试，请问是什么原因？</p><p>[图片]</p>",
+        "pv": "4",
+        "commentNum": 0
+      },
+      {
+        "DocId": "7",
+        "CreateTime": "1639037598",
+        "Title": "页面内容接入有很多无效网页？",
+        "Content": "<p>[图片]</p><p>appId：wxa458c82f597f225f</p><p>工具和手机打开这些页面都是正常的，服务器也正常 </p>",
+        "pv": "7",
+        "commentNum": 0
+      },
+      {
+        "DocId": "8",
+        "CreateTime": "1639037335",
+        "Title": "数据来源分析里的【未知】是什么情况？",
+        "Content": "<p>有文章用了小程序，但在来源分析里找不到，是因为都在【未知】里吗？为啥会未知？怎么才能看到呢？</p>",
+        "pv": "4",
+        "commentNum": 0
+      },
+      {
+        "DocId": "9",
+        "CreateTime": "1639037330",
+        "Title": "小程序page-meta在部分微信设置下失效的bug",
+        "Content": "<p>设置<span style=\"font-size: 16px;\">page-meta的root-font-size后，使用rem布局，在字体调整时会发生永久性不可逆的元素布局失效，测试出现问题的设备为华为P30、华为Nova7Pro、小米10Pro、小米10Ultra，为鸿蒙最新系统和MIUI最新稳定版。此bug为大概率出现，建议在MIUI下多找几台设备进行测试复现。</span></p><p>复现步骤：</p><p>1.新建一个页面，在页面顶部插入<span style=\"font-size: 16px;\">&lt;page-meta root-font-size=\"5px\"&gt;&lt;/page-meta&gt;</span></p><p><span style=\"font-size: 16px;\">2.在页面里写一个view，使用rem进行布局（例如：height:10rem），再写一个对比元素（高度例如：50px），这时候理论情况下他们两个元素应该是相同高度的；</span></p><p><span style=\"font-size: 16px;\">3.打开微信设置-&gt;通用-&gt;字体大小，将字体调到最大；</span></p><p><span style=\"font-size: 16px;\">4.此时微信会重启，然后再次打开小程序，此时会发现两个元素不一样大了，将字体调整回正常大小，小程序的rem布局依然不正常，且再也不能恢复（除非卸载微信重装）</span></p>",
+        "pv": "18",
+        "commentNum": 0
+      },
+      {
+        "DocId": "10",
+        "CreateTime": "1639037243",
+        "Title": "企业微信小程序调用map个别苹果手机为什么报错draw buffers not supported？",
+        "Content": "<p style=\" font-size: 16px; ; ; ; ; ; ; ; ; ; ; ; \">企业微信小程序调用map个别苹果手机报错draw buffers not supported，个人感觉基础库有问题。</p><p style=\" font-size: 16px; ; ; ; ; ; ; ; ; ; ; ; \">之前是小程序上没问题，调整到企业微信就不行了。</p><p><br  /></p>",
+        "pv": "3",
+        "commentNum": 0
+      },
+      {
+        "DocId": "11",
+        "CreateTime": "1639037146",
+        "Title": "模板消息发送两条",
+        "Content": "<p><span style=\"font-size: 16px;\"> \"template_id\":\"SpIPLJQxpjA4X1dixvfJ8DovQkcaAXNmP7ekjLFtr1E\"</span></p><p><span style=\"font-size: 16px;\">打印这边只触发了一次：</span></p><p>14:34:44.403 测试发送微信模板消息,模具,20211209009,M001031,86ea6903-4be6-4cf0-a2f6-08d9baddfa81</p><p>14:34:44.403 测试发送微信模板消息的结果：{\"errcode\":0,\"errmsg\":\"ok\",\"msgid\":2171632996972396547}模具,20211209009,M001031,86ea6903-4be6-4cf0-a2f6-08d9baddfa81</p><p>接收到两条消息</p><p>[图片]</p><p><br  /></p>",
+        "pv": "21",
+        "commentNum": 0
+      },
+      {
+        "DocId": "12",
+        "CreateTime": "1639036918",
+        "Title": "同一个公众号二维码 怎么区分是通微信扫一扫 还是 小程序扫码的？",
+        "Content": "<p>有个需求， 生成一个公众号二维码， 要求通过微信扫码进入公众号发消息，  而通过小程序扫码不进入公众号不发消息，在微信开放平台中找了好久没有找到解决方法，无法区分微信扫码还是小程序扫码，不知道有没有知道解决方案的大佬</p>",
+        "pv": "11",
+        "commentNum": 0
+      },
+      {
+        "DocId": "13",
+        "CreateTime": "1639036692",
+        "Title": "有木有完美解决canvas显示问题？",
+        "Content": "<p>开发者工具中，基础库大于2.8.3版本后，canvas在页面中或者scroll-view中，滚动页面时canvas绘制的图层不跟随滚动。但是真机中华为高性能机子会跟随滚动，低端机可能会卡顿，哪位大神有没有解决这方面问题的</p>",
+        "pv": "8",
+        "commentNum": 0
+      },
+      {
+        "DocId": "14",
+        "CreateTime": "1639036691",
+        "Title": "getuserfrofile授权后拿到的头像地址怎么打不开了那？",
+        "Content": "<p>[图片]</p><p><span style=\"font-size: 16px;\">之前是直接可以授权后拿到图像地址，在浏览器中也能拿到头像的，现在获取过来的网址打不开了，无论是网页，还是小程序端都不行。</span></p><p><br  /></p><p><br  /></p>",
+        "pv": "14",
+        "commentNum": 0
+      },
+      {
+        "DocId": "15",
+        "CreateTime": "1639036652",
+        "Title": "小程程序使用弹性布局，overflow-y: auto 引用组件地方 会挡住 滚动条",
+        "Content": "<p>[图片]</p>",
+        "pv": "10",
+        "commentNum": 0
+      },
+      {
+        "DocId": "16",
+        "CreateTime": "1639036588",
+        "Title": "公司的公众号菜单可以跳转其他公司的小程序吗？",
+        "Content": "<p>通过点击A公司的公众号（服务号）菜单，可以跳转到B公司的小程序吗？这个小程序是商家自营类目的，主要卖一些产品。</p><p>这个小程序是不是要在B公司的平台上进行审核上线？</p><p><br  /></p>",
+        "pv": "14",
+        "commentNum": "1"
+      },
+      {
+        "DocId": "17",
+        "CreateTime": "1639036583",
+        "Title": "小程序webview标题栏怎么设置？",
+        "Content": "<p>小程序webview标题栏怎么设置？</p><p>比如小程序里面已经设置了标题栏，，webview也设置了标题栏，那么最后展示那个呢？</p><p>小程序嵌入webview标题栏的设置优先级问题</p><p>1、app.json</p><p>2、页面的json配置文件，</p><p>3、setNavigationBarTitle</p><p>4、webview内页面标题</p><p><br  /></p><p>优先级如何以及在不同系统手机展现是否一致？</p><p><br  /></p>",
+        "pv": "12",
+        "commentNum": "1"
+      },
+      {
+        "DocId": "18",
+        "CreateTime": "1639036044",
+        "Title": "kbone 中的pullDownRefresh在iso中为什么只能触发一次？怎么提前结果下拉动画",
+        "Content": "<p>[图片]</p><p>在安卓手机上可以正常调动方法，但是在苹果手机上就只能调动一次，而且下拉的动画也很久也不会结束，安卓手机上下拉动画也要运行15秒以上</p><p>怎么让苹果手机正常调动下拉方法，怎么提前结束下拉动画 </p>",
+        "pv": "8",
+        "commentNum": 0
+      },
+      {
+        "DocId": "19",
+        "CreateTime": "1639035957",
+        "Title": "微信开放平台配置第三方平台为什么一直提示访问不到校验文件？",
+        "Content": "<p>我在微信开放平台配置第三方平台的开发资料，无法保存，一直提示“访问不到校验文件”。</p><p>但是校验文件已经放置到域名根目录，并且都能正常访问。</p><p>[图片]</p>",
+        "pv": "15",
+        "commentNum": 0
+      },
+      {
+        "DocId": "20",
+        "CreateTime": "1639035604",
+        "Title": "checksession后怎么使用getUserProfile？",
+        "Content": "<p>在调用wx.getUserProfile方法时，为了确保session_key有效，想要进行checksession的检查。但是在checksession的success方法中使用<span style=\"font-size: 16px;\">wx.getUserProfile会报错</span>errMsg: \"getUserProfile:fail can only be invoked by user TAP gesture.\"。在使用<span style=\"font-size: 16px;\">getUserProfile前不进行checksession则不能确保session_key有效，这问题怎么解决？</span></p>",
+        "pv": "17",
+        "commentNum": "2"
+      }
+    ],
+    "count": 20,
+    "page": 1,
+    "limit": 20
+  }
+}

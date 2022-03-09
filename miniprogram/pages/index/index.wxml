@@ -1,0 +1,11 @@
+<view class="list">
+  <view class="item" wx:for="{{list}}" wx:key="DocId" data-id="{{item.DocId}}" bindtap="onTap">
+    <view class="title">{{item.Title}}</view>
+    <view class="info">
+      <view class="pv">浏览：{{item.pv}}</view>
+      <view class="comment">评论：{{item.commentNum}}</view>
+    </view>
+    <rich-text class="content" nodes="{{item.Content}}"></rich-text>
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>

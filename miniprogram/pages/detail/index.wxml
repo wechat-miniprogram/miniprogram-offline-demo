@@ -1,0 +1,17 @@
+<view class="doc" wx:if="{{detail}}">
+  <view class="head">
+    <view class="title">{{detail.Title}}</view>
+    <view class="author">
+      <image class="head-img" src="{{detail.Author.headimgurl}}" mode="scaleToFill"></image>
+      <view class="name">{{detail.Author.nickname}}</view>
+      <view class="pv">浏览({{detail.Pv}})</view>
+      <view class="create-time">{{detail.createTime}}</view>
+    </view>
+    <view class="info">
+    </view>
+  </view>
+  <view class="content">
+    <rich-text class="text" nodes="{{detail.Content}}"></rich-text>
+    <view class="update-time">更新于 {{detail.updateTime}}</view>
+  </view>
+</view>
