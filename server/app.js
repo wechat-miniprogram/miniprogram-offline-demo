@@ -16,7 +16,8 @@ router.get('/cgi/home', async ctx => {
 })
 
 router.get('/cgi/detail/:id', async ctx => {
-    ctx.body = detailData[ctx.params.id]
+    const num = +ctx.params.id
+    ctx.body = detailData[num.toString()]
 })
 
 app.use(bodyParser())
